@@ -4,8 +4,6 @@
   "private": true,
   "homepage": "https://Ashish-React-Techugo.github.io/realtime-editor",
   "devDependencies": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "react-scripts": "1.0.17"
   },
   "dependencies": {
@@ -15,6 +13,8 @@
     "typo-js": "^1.2.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
