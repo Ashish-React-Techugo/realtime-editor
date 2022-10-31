@@ -2,12 +2,17 @@
   "name": "react-firepad",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Ashish-React-Techugo.github.io/realtime-editor",
   "devDependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "react-scripts": "1.0.17"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "typo-js": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
